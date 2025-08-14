@@ -1,653 +1,715 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mynooth</title>
-  <!-- link for fontawesome icons -->
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-  integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-  />
-  <!-- link for base css -->
-  <link rel="stylesheet" href="./css/base.css" />
-  <!-- link for main css -->
-  <link rel="stylesheet" href="./css/main.css" />
-</head>
-<body>
-  <!-- BEM - bu hech qanday bir mavzu emas shunchaki bu Developerlar uchun kakbi to'gri class berishni standari yani muqobil vairant  -->
-  
-  <!-- header -->
-  <header>
-    <div class="extra__sitenav-overlay"></div>
-    <div class="extra-sitenav">
-      <button class="extra__sitenav-btn" type="button">
-        <i class="fa-solid fa-xmark"></i>
-      </button>
-      <ul>
-        <li>
-          <a href="#">LIVING ROOM</a>
-        </li>
-        <li>
-          <a href="#">BEDROOM</a>
-        </li>
-        <li>
-          <a href="#">KITCHEN & DINING</a>
-        </li>
-        <li>
-          <a href="#">CONTACT</a>
-        </li>
-      </ul>
-    </div>
-    <!-- navbar -->
-    <nav class="navbar">
-      <div class="container navbar__container">
-        <a class="site__logo" href="./index.html">
-          <img
-          src="./images/svg/Site__logo.svg"
-          alt="Logo-Maynooth-Option1"
-          width="192"
-          height="38"
-          />
-        </a>
-        
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link" href="./pages/living_room.html"
-            >LIVING ROOM</a
-            >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mynooth</title>
+    <!-- link for fontawesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link for base css -->
+    <link rel="stylesheet" href="./css/base.css" />
+    <!-- link for main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- BEM - bu hech qanday bir mavzu emas shunchaki bu Developerlar uchun kakbi to'gri class berishni standari yani muqobil vairant  -->
+
+    <!-- header -->
+    <header>
+      <div class="extra__sitenav-overlay"></div>
+      <div class="extra-sitenav">
+        <button class="extra__sitenav-btn" type="button">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul>
+          <li>
+            <a href="#">LIVING ROOM</a>
           </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">BEDROOM</a>
+          <li>
+            <a href="#">BEDROOM</a>
           </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">KITCHEN & DINING</a>
+          <li>
+            <a href="#">KITCHEN & DINING</a>
           </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#">CONTACT</a>
+          <li>
+            <a href="#">CONTACT</a>
           </li>
         </ul>
-        
-        <div class="icons">
-          <div class="icons-bar">
-            <a href="#">
-              <i class="fa-solid fa-cart-shopping"></i>
-            </a>
-            <a href="#">
-              <i class="fa-solid fa-circle-user"></i>
-            </a>
-          </div>
-          <div class="menu-icon">
-            <a href="#">
-              <i class="fa-solid fa-bars click-btn"></i>
-            </a>
-          </div>
-        </div>
       </div>
-    </nav>
-  </header>
-  <!-- header end -->
-  <!-- main -->
-  <main>
-    <section class="breadcrumb">
-      <div class="container">
-        <div class="breadcrumb-wrapper">
-          <ul class="breadcrumb-item">
-            <li class="breadcrumb-list">
-              <a href="index.html">HOME</a>
+      <!-- navbar -->
+      <nav class="navbar">
+        <div class="container navbar__container">
+          <a class="site__logo" href="./index.html">
+            <img
+              src="./images/svg/Site__logo.svg"
+              alt="Logo-Maynooth-Option1"
+              width="192"
+              height="38"
+            />
+          </a>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="./pages/living_room.html"
+                >LIVING ROOM</a
+              >
             </li>
-            >
-            <li class="breadcrumb-list">
-              <a href="#">Living Room</a>
+            <li class="nav__item">
+              <a class="nav__link" href="#">BEDROOM</a>
             </li>
-            >
-            <li class="breadcrumb-list">
-              <a href="#">Sofas</a>
+            <li class="nav__item">
+              <a class="nav__link" href="#">KITCHEN & DINING</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">CONTACT</a>
             </li>
           </ul>
-          <div class="filter-icon">
-            <i class="fa-solid fa-filter"></i>
+
+          <div class="icons">
+            <div class="icons-bar">
+              <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+              <a href="#">
+                <i class="fa-solid fa-circle-user"></i>
+              </a>
+            </div>
+            <div class="menu-icon">
+              <a href="#">
+                <i class="fa-solid fa-bars click-btn"></i>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- breadcrumb end -->
-    
-    <!-- main inner -->
-    <div class="main-inner">
-      <div class="container">
-        <!-- filter -->
-        <section class="filter">
-          <div class="filter-inner">
-            <h2 class="filter__title">Filter By</h2>
-            <hr class="filter__line" />
-            <h2 class="filter__title">Price</h2>
-            <form class="filter__form">
-              <label class="filter__form__label">
-                <input type="checkbox" />
-                <span class="filter__form__checkbox"></span>
-                <span class="filter__form__price">$150 - $250</span>
-                <span class="filter__form__number">(11)</span>
-              </label>
-              <label class="filter__form__label">
-                <input type="checkbox" />
-                <span class="filter__form__checkbox"></span>
-                <span class="filter__form__price">$250 - $350</span>
-                <span>(19)</span>
-              </label>
-              <label class="filter__form__label">
-                <input type="checkbox" />
-                <span class="filter__form__checkbox"></span>
-                <span class="filter__form__price">$350 - $550</span>
-                <span>(68)</span>
-              </label>
-              <label class="filter__form__label">
-                <input type="checkbox" />
-                <span class="filter__form__checkbox"></span>
-                <span class="filter__form__price">$550 - $850</span>
-                <span>(210)</span>
-              </label>
-              <label class="filter__form__label">
-                <input type="checkbox" />
-                <span class="filter__form__checkbox"></span>
-                <span class="filter__form__price">$850 - $1000</span>
-                <span>(89)</span>
-              </label>
-              <label class="filter__form__label">
-                <input type="checkbox" />
-                <span class="filter__form__checkbox"></span>
-                <span class="filter__form__price">$1000 - $2000</span>
-                <span>(46)</span>
-              </label>
-            </form>
-            <!-- Size -->
-            <hr class="filter__line" />
-            <h2 class="filter__title">Price</h2>
-            <form class="filter__form">
-              <label class="filter__form__label">
-                <input type="checkbox" />
-                <span class="filter__form__checkbox"></span>
-                <span class="filter__form__price">2 seater</span>
-                <span class="filter__form__number">(84)</span>
-              </label>
-              <label class="filter__form__label">
-                <input type="checkbox" />
-                <span class="filter__form__checkbox"></span>
-                <span class="filter__form__price">3 seater</span>
-                <span>(60)</span>
-              </label>
-              <label class="filter__form__label">
-                <input type="checkbox" />
-                <span class="filter__form__checkbox"></span>
-                <span class="filter__form__price">4 seater</span>
-                <span>(58)</span>
-              </label>
-              <label class="filter__form__label">
-                <input type="checkbox" />
-                <span class="filter__form__checkbox"></span>
-                <span class="filter__form__price">Corner</span>
-                <span>(26)</span>
-              </label>
-              <label class="filter__form__label">
-                <input type="checkbox" />
-                <span class="filter__form__checkbox"></span>
-                <span class="filter__form__price">Sofabeds</span>
-                <span>(19)</span>
-              </label>
-            </form>
-            <button class="filter__form-btn" type="button">Show more</button>
-            <hr class="filter__line" />
+      </nav>
+    </header>
+    <!-- header end -->
+    <!-- main -->
+    <main>
+      <section class="breadcrumb">
+        <div class="container">
+          <div class="breadcrumb-wrapper">
+            <ul class="breadcrumb-item">
+              <li class="breadcrumb-list">
+                <a href="index.html">HOME</a>
+              </li>
+              >
+              <li class="breadcrumb-list">
+                <a href="#">Living Room</a>
+              </li>
+              >
+              <li class="breadcrumb-list">
+                <a href="#">Sofas</a>
+              </li>
+            </ul>
+            <div class="filter-icon">
+              <i class="fa-solid fa-filter"></i>
+            </div>
           </div>
-        </section>
-        <!-- filter end -->
-        
-        <!-- products -->
-        <section class="products">
-          <ul class="products__list">
-            <li class="products__item">
-              <img
-              src="./images/jpg/Comfort's-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Comfort</h2>
-                <span>$299</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+        </div>
+      </section>
+      <!-- breadcrumb end -->
+
+      <!-- main inner -->
+      <div class="main-inner">
+        <div class="container">
+          <!-- filter -->
+          <section class="filter">
+            <div class="filter-inner">
+              <h2 class="filter__title">Filter By</h2>
+              <hr class="filter__line" />
+              <h2 class="filter__title">Price</h2>
+              <form class="filter__form">
+                <label class="filter__form__label">
+                  <input type="checkbox" />
+                  <span class="filter__form__checkbox"></span>
+                  <span class="filter__form__price">$150 - $250</span>
+                  <span class="filter__form__number">(11)</span>
+                </label>
+                <label class="filter__form__label">
+                  <input type="checkbox" />
+                  <span class="filter__form__checkbox"></span>
+                  <span class="filter__form__price">$250 - $350</span>
+                  <span>(19)</span>
+                </label>
+                <label class="filter__form__label">
+                  <input type="checkbox" />
+                  <span class="filter__form__checkbox"></span>
+                  <span class="filter__form__price">$350 - $550</span>
+                  <span>(68)</span>
+                </label>
+                <label class="filter__form__label">
+                  <input type="checkbox" />
+                  <span class="filter__form__checkbox"></span>
+                  <span class="filter__form__price">$550 - $850</span>
+                  <span>(210)</span>
+                </label>
+                <label class="filter__form__label">
+                  <input type="checkbox" />
+                  <span class="filter__form__checkbox"></span>
+                  <span class="filter__form__price">$850 - $1000</span>
+                  <span>(89)</span>
+                </label>
+                <label class="filter__form__label">
+                  <input type="checkbox" />
+                  <span class="filter__form__checkbox"></span>
+                  <span class="filter__form__price">$1000 - $2000</span>
+                  <span>(46)</span>
+                </label>
+              </form>
+              <!-- Size -->
+              <hr class="filter__line" />
+              <h2 class="filter__title">Price</h2>
+              <form class="filter__form">
+                <label class="filter__form__label">
+                  <input type="checkbox" />
+                  <span class="filter__form__checkbox"></span>
+                  <span class="filter__form__price">2 seater</span>
+                  <span class="filter__form__number">(84)</span>
+                </label>
+                <label class="filter__form__label">
+                  <input type="checkbox" />
+                  <span class="filter__form__checkbox"></span>
+                  <span class="filter__form__price">3 seater</span>
+                  <span>(60)</span>
+                </label>
+                <label class="filter__form__label">
+                  <input type="checkbox" />
+                  <span class="filter__form__checkbox"></span>
+                  <span class="filter__form__price">4 seater</span>
+                  <span>(58)</span>
+                </label>
+                <label class="filter__form__label">
+                  <input type="checkbox" />
+                  <span class="filter__form__checkbox"></span>
+                  <span class="filter__form__price">Corner</span>
+                  <span>(26)</span>
+                </label>
+                <label class="filter__form__label">
+                  <input type="checkbox" />
+                  <span class="filter__form__checkbox"></span>
+                  <span class="filter__form__price">Sofabeds</span>
+                  <span>(19)</span>
+                </label>
+              </form>
+              <button class="filter__form-btn" type="button">Show more</button>
+              <hr class="filter__line" />
+            </div>
+          </section>
+          <!-- filter end -->
+
+          <!-- products -->
+          <section class="products">
+            <ul class="products__list">
+              <li class="products__item">
+                <img
+                  src="./images/jpg/Comfort's-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Comfort</h2>
+                  <span>$299</span>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/Ancient-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Ancient</h2>
-                <span>$159</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/special-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Special</h2>
-                <span>$499</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/Ancient-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Ancient</h2>
+                  <span>$159</span>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/Ancient__2-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Ancient</h2>
-                <span>$399</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/sassy-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Sassy</h2>
-                <span>$199</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/special-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Special</h2>
+                  <span>$499</span>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/sunny-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Sunny</h2>
-                <span>$299</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/comfort-2-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Special</h2>
-                <span>$400</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/Ancient__2-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Ancient</h2>
+                  <span>$399</span>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/8-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Special</h2>
-                <span>$400</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/9-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>classy</h2>
-                <span>$699</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/sassy-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Sassy</h2>
+                  <span>$199</span>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/10-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Ancient</h2>
-                <span>$299</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/11-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Classy</h2>
-                <span>$150</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/sunny-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Sunny</h2>
+                  <span>$299</span>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/12-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Comfort</h2>
-                <span>$250</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/13-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Ancient</h2>
-                <span>$299</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/comfort-2-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Special</h2>
+                  <span>$400</span>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/14-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Comfort</h2>
-                <span>$359</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/15-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Sassy</h2>
-                <span>$449</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/8-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Special</h2>
+                  <span>$400</span>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/16-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Comfort</h2>
-                <span>$399</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/17-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Seater</h2>
-                <span>$199</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/9-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>classy</h2>
+                  <span>$699</span>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-            <li class="products__item">
-              <img
-              src="./images/jpg/18-img.jpg"
-              alt="comfort"
-              width="290"
-              height="160"
-              />
-              <div class="products__item-info">
-                <h2>Classy</h2>
-                <span>$269</span>
-              </div>
-              <p>green 2-Seater velvet sofa</p>
-              <div class="products__rating">
-                <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <span>(267)</span>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
                 </div>
-              </div>
-              <a class="products-btn" href="#">Choose options</a>
-            </li>
-          </ul>
-        </section>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/10-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Ancient</h2>
+                  <span>$299</span>
+                </div>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
+                </div>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/11-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Classy</h2>
+                  <span>$150</span>
+                </div>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
+                </div>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/12-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Comfort</h2>
+                  <span>$250</span>
+                </div>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
+                </div>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/13-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Ancient</h2>
+                  <span>$299</span>
+                </div>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
+                </div>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/14-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Comfort</h2>
+                  <span>$359</span>
+                </div>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
+                </div>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/15-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Sassy</h2>
+                  <span>$449</span>
+                </div>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
+                </div>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/16-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Comfort</h2>
+                  <span>$399</span>
+                </div>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
+                </div>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/17-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Seater</h2>
+                  <span>$199</span>
+                </div>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
+                </div>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+              <li class="products__item">
+                <img
+                  src="./images/jpg/18-img.jpg"
+                  alt="comfort"
+                  width="290"
+                  height="160"
+                />
+                <div class="products__item-info">
+                  <h2>Classy</h2>
+                  <span>$269</span>
+                </div>
+                <p>green 2-Seater velvet sofa</p>
+                <div class="products__rating">
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(267)</span>
+                  </div>
+                </div>
+                <a class="products-btn" href="#">Choose options</a>
+              </li>
+            </ul>
+          </section>
+        </div>
       </div>
-    </div>
-  </main>
-  <!-- main end -->
-  <!-- footer -->
-  <!-- <footer><div class="container">FOOTER</div></footer> -->
-  <!-- footer end -->
-  <script src="./app.js"></script>
-</body>
+      <div class="count">
+        <div class="container">
+          <span>
+            <
+          </span>
+          <span class="active-count">1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>5</span>
+          <span>6</span>
+          <span>
+            >
+          </span>
+        </div>
+      </div>
+    </main>
+    <!-- main end -->
+    <!-- footer -->
+    <footer style="background-color: black">
+      <div class="container">
+        <ul class="footer__list">
+          <div class="footer-right-wrapper">
+            <li>Living Room</li>
+            <li>Bedroom</li>
+            <li>Kitchen & Dining</li>
+          </div>
+          <li class="footer__logo-litle">
+            <img
+              class="footer__img"
+              src="./images/svg/Site__logo.svg"
+              alt="Logo-Maynooth-Option1"
+              width="192"
+              height="38"
+            />
+          </li>
+          <div class="footer-left-wrapper">
+            <li>About</li>
+            <li>Blog</li>
+            <li>Support</li>
+          </div>
+        </ul>
+      </div>
+      <hr class="footer-line" />
+      <div class="container">
+        <div class="footer__icons">
+          <a href="#" class="social_icon">
+            <i class="fa-brands fa-google-plus-g"></i>
+          </a>
+          <a href="#" class="social_icon">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="social_icon">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="#" class="social_icon">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </div>
+        <div class="footer__security">
+          <span>© 2010 — 2020</span>
+          <span>Privacy — Terms</span>
+        </div>
+      </div>
+    </footer>
+    <!-- <footer><div class="container">FOOTER</div></footer> -->
+    <!-- footer end -->
+    <script src="./app.js"></script>
+  </body>
 </html>
