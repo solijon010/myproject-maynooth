@@ -17,24 +17,14 @@ body {
 
 main {
   min-height: 1000px;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   flex-grow: 1;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 60px;
-  color: tomato;
-  line-height: 100%;
-  letter-spacing: 25px;
+  justify-content: center; */
 }
 
-footer {
-  background-color: lightseagreen;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-}
+
 
 /* header style */
 
@@ -51,8 +41,15 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  overflow: auto;
+  overflow: hidden;
 }
+.icons-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
 .navbar__container {
   display: flex;
   justify-content: space-between;
@@ -182,16 +179,232 @@ header {
   transition: width 0.4s ease;
 }
 
-@media (max-width: 900px) {
-  main {
-    background-color: #fff000;
+/* main style start */
+
+.breadcrumb {
+  margin: 34px 0;
+  
+}
+
+.breadcrumb-wrapper {
+  display: flex;
+  gap: 10px;
+}
+.filter-icon {
+  font-size: 20px;
+  color: var(--black);
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.filter-icon:hover {
+  background-color: var(--primary);
+  color: var(--white);
+  transform: scale(1.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+  
+}
+
+.breadcrumb-list:last-child {
+  color: var(--gray-400);
+}
+
+/* filter style  */
+.filter {
+  width: 100%;
+  max-width: 310px;
+  padding-right: 28px;
+  border-right: 2px solid var(--gray-400);
+}
+
+.main-inner .container {
+  display: flex;
+  gap: 21px;
+}
+.filter-inner {
+  position: sticky;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.filter__form__label {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.filter__form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 16px;
+}
+
+.filter__form input {
+  display: none;
+}
+
+.filter__form__checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--black);
+}
+
+.filter__form__price {
+  margin-right: auto;
+}
+
+.filter__form__number {
+  color: var(--gary-100);
+}
+
+.filter__form-btn {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+  line-height: 100%;
+  text-decoration-line: underline;
+  transition: all 0.4s linear;
+}
+
+.filter__form-btn:hover {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.filter__form-btn:hover {
+  /* width: 100%; */
+  color: var(--primary);
+}
+
+/* products */
+
+.products {
+  width: 100%;
+  max-width: 970px;
+}
+
+.products__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.products__item {
+  padding-bottom: 26px;
+  border-bottom: 2px solid var(--gray-400);
+  display: grid;
+  flex-direction: column;
+  gap: 12px;
+  flex-grow: 1;
+
+  p {
+    font-size: 16px;
+    text-transform: capitalize;
   }
+}
+
+/* img ga hover berypaman */
+.products__item img {
+  transition: all 0.4s ease, box-shadow 0.4s ease;
+  width: 100%;
+  height: auto;
+  /* flex-grow: 1; */
+}
+
+.products__item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  border-color: var(--primary);
+  box-shadow: 0 0 12px var(--primary);
+}
+
+.products__item-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  span {
+    color: var(--primary);
+    font-size: 22px;
+    font-weight: 700;
+  }
+}
+
+/* star ga style berdim xatoki hover ham qilganman */
+.products__rating i {
+  color: rgba(243, 181, 65, 1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.products__rating i:hover {
+  transform: scale(1.3) rotate(10deg);
+  color: orange;
+}
+
+.products__rating i:active {
+  transform: scale(0.9);
+}
+
+.products__rating i:last-of-type {
+  color: rgba(153, 153, 153, 1);
+}
+
+.products__rating {
+  display: flex;
+  align-items: center;
+}
+
+.products-btn {
+  width: auto;
+  justify-self: center;
+  padding: 8px 24px;
+  background-color: var(--gray-300);
+  border-radius: 2px;
+  border: 2px solid var(--black);
+  font-size: 14px;
+  align-self: center;
+  transition: all 0.3s ease;
+}
+
+.products-btn:hover {
+  transform: scale(1.05);
+  border-color: var(--primary);
+  box-shadow: 0 0 12px var(--primary);
+}
+/* btn ga ham hover berdim tepada mana  */
+
+/* footer qismi  */
+
+
+
+
+
+/* media responsive */
+
+@media (max-width: 900px) {
 }
 
 /* Extremely large */
 
 @media only screen and (max-width: 1200px) {
   .icons {
+    gap: 35px;
+  }
+  .icons-bar {
     gap: 35px;
   }
 }
@@ -209,7 +422,21 @@ header {
 @media only screen and (max-width: 768px) {
   .site__logo img {
     width: 160px;
-    /* transition: width 0.4s ease; */
+    transition: width 0.4s ease;
     height: auto;
+  }
+  .filter {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .icons-bar {
+    display: none;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .breadcrumb-item {
+    display: none;
   }
 }
